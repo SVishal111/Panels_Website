@@ -1,0 +1,91 @@
+.checkbtn {
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 30px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+    border-radius: 5px;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width:925px) {
+
+    .navLinks ul {
+        /* background-color: white; */
+        background-color: black;
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        flex-direction: column;
+        display: none;
+        height: 450px;
+        width: 50%;
+        /* border-top: 1px solid #c5c5c5; */
+        border-radius: 0px 0px 0px 15px;
+    }
+
+    .navLinks ul li{
+        /* background-color: white; */
+        background-color: transparent;
+        /* background-color: khaki; */
+        height: 28%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navLinks ul button{
+        width: 90%;
+        height: 45px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navLinks ul {
+        display: flex;
+    }
+}
+
+@media (max-width:730px) {
+
+    #accordion{
+        width: auto;
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width:654px) {
+    .card{
+        width: 300px;
+    }
+}
+
+@media (max-width:650px) {
+    .jumbotron{
+        width: 100%;
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width:550px) {
+    .miscInfo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brandInfo, .brandLinks{
+        width: 90%;
+    }
+
+    .brandInfo{
+        margin-bottom: 25px;
+    }
+
+}

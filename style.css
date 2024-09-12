@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    /* background-color: black; */
+    width: 100%;
+}
+
+.navBar {
+    height: 80px;
+    /* height: 12vh; */
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo h2 {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 28px;
+    letter-spacing: 0.4px;
+}
+
+.navLinks {
+    width: 40%;
+}
+
+.navLinks ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navLinks ul li {
+    list-style-type: none;
+}
+
+.navLinks ul li a {
+    text-decoration: none;
+    color: #fff;
+
+    opacity: 0.7;
+}
+
+.navLinks ul li:hover a {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+button {
+    background-color: black;
+    border: 3px solid #464646;
+    border-radius: 25px;
+
+    height: 35px;
+    width: 100px;
+}
+
+button a {
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #464646;
+    transition: 0.3s;
+}
+
+button a:hover {
+    opacity: 1;
+}
+
+.heroSection {
+    background-color: gray;
+    background-image: url("./images/Black\ Mountain\ Background\ Image.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 176px 0px;
+}
+
+.jumbotron {
+    /* background-color: chartreuse; */
+    margin-left: 30px;
+    width: 50%;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.jumbotron p {
+    color: #bbbbbb;
+    width: 88%;
+    font-size: 14px;
+    padding: 25px 0px;
+}
+
+
+.jumbotron button {
+    height: 45px;
+    width: 140px;
+}
+
+.jumbotron button a {
+    font-size: 15px;
+}
+
+main {
+    background-image: url("./images/Black\ and\ White\ Main\ Background\ Image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    background-color: black;
+    /* background-color: white; */
+    padding: 30px 0px;
+    border-top: 2px solid gray;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h3 {
+    font-size: 32px;
+    color: #fff;
+    padding: 20px 10px;
+
+    text-align: center;
+}
+
+.cardContainer {
+    width: 100%;
+    padding: 20px 60px;
+    height: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* gap: 2rem; */
+    gap: 35px;
+
+    justify-items: center;
+}
+
+.card {
+    height: auto;
+    width: 100%;
+    /* width: auto; */
+    padding-bottom: 10px;
+    border: 2px solid #464646;
+    background-color: #464646;
+
+    border-radius: 10px;
+
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    /* gap: 2rem; */
+}
+
+.card:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.cardHeader {
+    width: 100%;
+}
+
+.cardHeader img {
+    width: 100%;
+    height: 300px;
+    /* aspect-ratio: 3/4; */
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.cardBody {
+    text-align: center;
+}
+
+.cardBody h4 {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 400;
+
+    color: white;
+}
+
+.cardBody p {
+    padding: 10px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.cardBody a {
+    padding: 25px 10px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+    opacity: 0.7;
+}
+
+.cardBody a:hover {
+    opacity: 1;
+}
+
+.boxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+
+    padding: 10px 30px;
+}
+
+.boxContainer img {
+    /* width: 350px; */
+    width: 90%;
+    aspect-ratio: 16/9;
+}
+
+.boxContainer img:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.contactUs {
+    background-color: #0000009a;
+}
+
+.contact p {
+    color: #bbbbbb;
+    width: 80%;
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: 300;
+}
+
+.contact button {
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+#accordion {
+    margin: 50px auto;
+    width: 700px;
+}
+
+#accordion li {
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+
+#accordion li label span {
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #accordion li label:active span{
+    transform: rotate(270deg);
+    transition: 0.3s;
+} */
+
+#accordion label + input[type="checkbox"] {
+    display: none;
+}
+
+#accordion .content {
+    padding: 0px 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="checkbox"]:checked + .content {
+    max-height: 400px;
+}
+
+/* input[type="checkbox"]:checked + span {
+    transform: rotate(270deg);
+    transition: 0.3s;
+} */
+
+.miscInfo {
+    padding: 80px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandInfo {
+    margin-left: 30px;
+}
+
+.brandInfo .logo {
+    margin-bottom: 20px;
+}
+
+.brandInfo .logo h2 {
+    margin-left: 0px;
+}
+
+.brandInfo p {
+    font-size: 14px;
+    color: white;
+}
+
+.brandInfo p a {
+    text-decoration: none;
+    color: #b8b0b0;
+}
+
+.brandInfo h5 {
+    margin-top: 20px;
+    color: white;
+}
+
+.brandLinks {
+    margin-right: 30px;
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.links ul li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.links h4 {
+    color: rgb(141, 137, 137);
+    margin-bottom: 15px;
+}
+
+.links a:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 0.2px solid gray;
+}
+
+.copyrights h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 30px;
+    
+    text-align: center;
+}
+
+.copyrights span {
+    color: #b8b0b0;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panels Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <input type="checkbox" id="check">
+        <div class="logo">
+            <h2>Panels</h2>
+        </div>
+        <div class="navLinks">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#fAQuestions">FAQ</a></li>
+                <li><button><a href="#signIn">Sign In</a></button></li>
+            </ul>
+        </div>
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+
+    <header>
+
+        <div class="heroSection" id="home">
+            <div class="jumbotron">
+                <h1>Get Your Imaginations Flow through Panels</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo, eum autem quia aspernatur enim
+                    ratione quisquam, perferendis totam culpa officia veniam corrupti facilis molestiae?
+                </p>
+                <button><a href="#gallery">Visit Us</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="aboutUs" id="aboutUs">
+            <div class="heading">
+                <h3>ABOUT US</h3>
+            </div>
+
+            <div class="cardContainer">
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Black Aesthetic Card Image 1.jpg" alt="ErrorCardImg1">
+                    </figure>
+                    <div class="cardBody">
+                        <h4>Aesthetic Blur</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus facere quia eligendi, enim
+                            nesciunt error architecto quasi? Ad, quos eveniet!</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Black Aesthetic Card Image 2.jpg" alt="ErrorCardImg2">
+                    </figure>
+                    <div class="cardBody">
+                        <h4>Aesthetic Motion</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione aspernatur
+                            assumenda eum, eligendi vel rerum quam sit magni!</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Black Aesthetic Card Image 3.jpg" alt="ErrorCardImg3">
+                    </figure>
+                    <div class="cardBody">
+                        <h4>Aesthetic Flow</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit quas itaque nihil
+                            saepe cum, vitae minima officiis quod perferendis?</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure class="cardHeader">
+                        <img src="./images/Black Aesthetic Card Image 4.jpg" alt="ErrorCardImg4">
+                    </figure>
+                    <div class="cardBody">
+                        <h4>Aesthetic Imagery</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis quis esse,
+                            tenetur ipsam ex inventore tempora error labore dolores.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactUs" id="contact">
+            <div class="heading">
+                <h3>CONTACT US</h3>
+            </div>
+
+            <div class="contact">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ipsam temporibus eveniet
+                    possimus. Deleniti nulla corrupti consequuntur assumenda magnam quasi inventore aliquam corporis,
+                    accusamus facere vitae ipsa velit rem itaque, odit atque quo nostrum consequatur.</p>
+                <button><a href="#">Contact Us</a></button>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="heading">
+                <h3>GALLERY</h3>
+            </div>
+            <div class="boxContainer">
+                <img src="./images/Black And White Gallery Image 1.jpg" alt="ErrorGalleryImg1">
+                <img src="./images/Black And White Gallery Image 2.jpg" alt="ErrorGalleryImg2">
+                <img src="./images/Black And White Gallery Image 3.jpg" alt="ErrorGalleryImg3">
+                <img src="./images/Black And White Gallery Image 4.jpg" alt="ErrorGalleryImg4">
+                <img src="./images/Black And White Gallery Image 5.jpg" alt="ErrorGalleryImg5">
+                <img src="./images/Black And White Gallery Image 6.webp" alt="ErrorGalleryImg6">
+            </div>
+        </section>
+
+        <section class="fAQuestions" id="fAQuestions">
+            <div class="heading">
+                <h3>FREQUENTLY ASKED QUESTIONS</h3>
+            </div>
+
+            <div class="fAQ">
+                <ul id="accordion">
+
+                    <li>
+                        <label for="first">What is Panels Website? <span> &#x3e; </span> </label>
+                        <input type="checkbox" name="accordion" id="first">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, incidunt nostrum. Nisi
+                                nesciunt
+                                repellendus a tenetur illo at consectetur nobis aperiam ex officiis deserunt architecto
+                                unde quam
+                                inventore ea libero saepe repellat, voluptate recusandae quaerat? Aperiam, neque
+                                voluptate
+                                laboriosam voluptatem nulla natus.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label for="second">How To Access the Panels? <span> &#x3e; </span> </label>
+                        <input type="checkbox" name="accordion" id="second">
+                        <div class="content">
+                            <p>One Two Three Four Five Six Seven Eight Nine Ten. Eleven Twelve Thirteen Fourteen
+                                Fifteen, Sixteen
+                                Seventeen Eighteen Nineteen Twenty. TwentyOne TwentyTwo TwentyThree TwentyFour
+                                TwentyFive,
+                                TwentySix, TwentySeven TwentyEight TwentyNine Thirty. ThirtyOne ThirtyTwo ThirtyThree,
+                                ThirtyFour ThirtyFive,
+                                ThirtySix?</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label for="third">Where Can we Use it? <span> &#x3e; </span> </label>
+                        <input type="checkbox" name="accordion" id="third">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe veritatis aliquam
+                                voluptatem. Non
+                                quaerat ducimus unde autem esse odio consequatur quidem obcaecati id eum. Quia magni,
+                                autem,
+                                pariatur deserunt libero quae non suscipit veniam, vitae delectus tempora dolore facilis
+                                tenetur
+                                dolorum.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label for="fourth">Can I Use Panels Website For Free? <span> &#x3e; </span> </label>
+                        <input type="checkbox" name="accordion" id="fourth">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe veritatis aliquam
+                                voluptatem. Non
+                                quaerat ducimus unde autem esse odio consequatur quidem obcaecati id eum. Quia magni,
+                                autem,
+                                pariatur deserunt libero quae non suscipit veniam, vitae delectus tempora dolore facilis
+                                tenetur
+                                dolorum.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label for="fifth">What are the Perks of the Premium Membership? <span> &#x3e; </span> </label>
+                        <input type="checkbox" name="accordion" id="fifth">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe veritatis aliquam
+                                voluptatem. Non
+                                quaerat ducimus unde autem esse odio consequatur quidem obcaecati id eum. Quia magni,
+                                autem,
+                                pariatur deserunt libero quae non suscipit veniam, vitae delectus tempora dolore facilis
+                                tenetur
+                                dolorum.
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="miscInfo">
+
+            <div class="brandInfo">
+                <div class="logo">
+                    <h2>Panels</h2>
+                </div>
+                <p>Built by <a href="#">Aesthetic Designs</a></p>
+                <p>Not Built for Trading and Domain Purposes.</p>
+                <h5>&copy; 2023 Lenovo. All Rights Reserved.</h5>
+            </div>
+
+            <div class="brandLinks">
+
+                <div class="links">
+                    <h4>WEBSITE</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <h4>MEMBERSHIP</h4>
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">User Account</a></li>
+                        <li><a href="#">Reset Password</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="copyrights">
+            <h5>&copy; 2023 <span>LENOVO</span>. ALL RIGHTS RESERVED. BY <span>LENOVO CORP.</span></h5>
+        </section>
+    </footer>
+</body>
+
+</html>
