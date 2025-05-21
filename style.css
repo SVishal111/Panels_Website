@@ -7,6 +7,8 @@
     box-sizing: border-box;
 
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 header {
@@ -310,10 +312,10 @@ section {
     font-family: 'Poppins', sans-serif;
 }
 
-/* #accordion li label:active span{
+#accordion li label:active span{
     transform: rotate(270deg);
     transition: 0.3s;
-} */
+}
 
 #accordion label + input[type="checkbox"] {
     display: none;
