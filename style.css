@@ -313,8 +313,8 @@ section {
 }
 
 #accordion li label:active span{
-    transform: rotate(270deg);
-    transition: 0.3s;
+    transform: rotate(450deg);
+    transition: 0.2s;
 }
 
 #accordion label + input[type="checkbox"] {
